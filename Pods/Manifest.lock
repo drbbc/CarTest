@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.0.0)
+  - BaiduMapKit (3.0.0)
+  - QRCodeReader.swift (7.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - BaiduMapKit
+  - QRCodeReader.swift (~> 7.0.1)
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  QRCodeReader.swift: 2b57c1d5d503aeea620573a5c9215027b21d9e7a
+
+PODFILE CHECKSUM: 965178450419655a2bbdda5fdcdb4f9529864e7b
+
+COCOAPODS: 1.1.0.beta.1

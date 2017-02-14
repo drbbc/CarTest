@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41BB15C27DCBFA72231C3F4E /* Pods_CarTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82555E2D05E7D1AA6921F6C /* Pods_CarTest.framework */; };
+		A40802311D9D139100AF3BE2 /* QRViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40802301D9D139100AF3BE2 /* QRViewController1.swift */; };
+		A41255BD1D8918C9001D7495 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41255BC1D8918C9001D7495 /* CustomSearchBar.swift */; };
+		A41255BF1D89259A001D7495 /* PlugnInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41255BE1D89259A001D7495 /* PlugnInfoViewController.swift */; };
+		A41255C11D89276E001D7495 /* CarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41255C01D89276E001D7495 /* CarInfoViewController.swift */; };
+		A41255C31D892786001D7495 /* LiLiangCfgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41255C21D892786001D7495 /* LiLiangCfgViewController.swift */; };
+		A41255C51D8927A1001D7495 /* ShortMsgCfgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41255C41D8927A1001D7495 /* ShortMsgCfgViewController.swift */; };
+		A4227D451D9B536500EA51D6 /* AllPluginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227D441D9B536500EA51D6 /* AllPluginViewController.swift */; };
+		A4227D471D9B5E5E00EA51D6 /* CusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227D461D9B5E5E00EA51D6 /* CusTableViewCell.swift */; };
+		A43181841D90D550006DF4E7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43181831D90D550006DF4E7 /* SwiftyJSON.swift */; };
+		A44FC3771D8E9126009784B1 /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44FC3711D8E9126009784B1 /* Neon.swift */; };
+		A44FC3781D8E9126009784B1 /* NeonAlignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44FC3721D8E9126009784B1 /* NeonAlignable.swift */; };
+		A44FC3791D8E9126009784B1 /* NeonAnchorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44FC3731D8E9126009784B1 /* NeonAnchorable.swift */; };
+		A44FC37A1D8E9126009784B1 /* NeonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44FC3741D8E9126009784B1 /* NeonExtensions.swift */; };
+		A44FC37B1D8E9126009784B1 /* NeonFrameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44FC3751D8E9126009784B1 /* NeonFrameable.swift */; };
+		A44FC37C1D8E9126009784B1 /* NeonGroupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44FC3761D8E9126009784B1 /* NeonGroupable.swift */; };
+		A45FE94B1D9A09A200CDDAC0 /* ZuHeLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45FE94A1D9A09A200CDDAC0 /* ZuHeLable.swift */; };
+		A4619D481D752F9B00829BC9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4619D471D752F9B00829BC9 /* MainViewController.swift */; };
+		A4619D4A1D7571BF00829BC9 /* DiyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4619D491D7571BF00829BC9 /* DiyButton.swift */; };
+		A4619D4C1D76830200829BC9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4619D4B1D76830200829BC9 /* Config.swift */; };
+		A4619D4E1D76A63C00829BC9 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4619D4D1D76A63C00829BC9 /* HttpRequest.swift */; };
+		A47849011DAA117400D64DFC /* QRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A47848F61DAA117400D64DFC /* QRItem.m */; };
+		A47849021DAA117400D64DFC /* QRMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A47848F81DAA117400D64DFC /* QRMenu.m */; };
+		A47849031DAA117400D64DFC /* QRUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A47848FA1DAA117400D64DFC /* QRUtil.m */; };
+		A47849041DAA117400D64DFC /* QRView.m in Sources */ = {isa = PBXBuildFile; fileRef = A47848FC1DAA117400D64DFC /* QRView.m */; };
+		A47849051DAA117400D64DFC /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47848FE1DAA117400D64DFC /* QRViewController.m */; };
+		A47849091DAA11A600D64DFC /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A47849081DAA11A600D64DFC /* UIViewExt.m */; };
+		A47CDFD11D95105000FDD96C /* CULable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CDFD01D95105000FDD96C /* CULable.swift */; };
+		A494F3991D7D23DB00135E7B /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494F3981D7D23DB00135E7B /* searchResultViewController.swift */; };
+		A4968CEF1D73D48B00C7E6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4968CEE1D73D48B00C7E6D9 /* AppDelegate.swift */; };
+		A4968CF11D73D48B00C7E6D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4968CF01D73D48B00C7E6D9 /* ViewController.swift */; };
+		A4968CF41D73D48B00C7E6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4968CF21D73D48B00C7E6D9 /* Main.storyboard */; };
+		A4968CF61D73D48B00C7E6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4968CF51D73D48B00C7E6D9 /* Assets.xcassets */; };
+		A4968CF91D73D48B00C7E6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4968CF71D73D48B00C7E6D9 /* LaunchScreen.storyboard */; };
+		A4968D051D73FD4600C7E6D9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4968D041D73FD4600C7E6D9 /* StartViewController.swift */; };
+		A4968D071D73FD7B00C7E6D9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4968D061D73FD7B00C7E6D9 /* BaseViewController.swift */; };
+		A4ABA3921D9B97A40094AE70 /* ErrPluginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABA3911D9B97A40094AE70 /* ErrPluginViewController.swift */; };
+		A4F24A2A1D911A880005805D /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F24A291D911A880005805D /* SwiftSpinner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0543F32BB80AA59574114C82 /* Pods-CarTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarTest/Pods-CarTest.release.xcconfig"; sourceTree = "<group>"; };
+		A40802301D9D139100AF3BE2 /* QRViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController1.swift; sourceTree = "<group>"; };
+		A41255BC1D8918C9001D7495 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		A41255BE1D89259A001D7495 /* PlugnInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlugnInfoViewController.swift; sourceTree = "<group>"; };
+		A41255C01D89276E001D7495 /* CarInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoViewController.swift; sourceTree = "<group>"; };
+		A41255C21D892786001D7495 /* LiLiangCfgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiLiangCfgViewController.swift; sourceTree = "<group>"; };
+		A41255C41D8927A1001D7495 /* ShortMsgCfgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortMsgCfgViewController.swift; sourceTree = "<group>"; };
+		A4227D441D9B536500EA51D6 /* AllPluginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPluginViewController.swift; sourceTree = "<group>"; };
+		A4227D461D9B5E5E00EA51D6 /* CusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CusTableViewCell.swift; sourceTree = "<group>"; };
+		A43181831D90D550006DF4E7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A44FC3701D8E9126009784B1 /* Neon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neon.h; sourceTree = "<group>"; };
+		A44FC3711D8E9126009784B1 /* Neon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
+		A44FC3721D8E9126009784B1 /* NeonAlignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAlignable.swift; sourceTree = "<group>"; };
+		A44FC3731D8E9126009784B1 /* NeonAnchorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonAnchorable.swift; sourceTree = "<group>"; };
+		A44FC3741D8E9126009784B1 /* NeonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonExtensions.swift; sourceTree = "<group>"; };
+		A44FC3751D8E9126009784B1 /* NeonFrameable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonFrameable.swift; sourceTree = "<group>"; };
+		A44FC3761D8E9126009784B1 /* NeonGroupable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonGroupable.swift; sourceTree = "<group>"; };
+		A45FE94A1D9A09A200CDDAC0 /* ZuHeLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZuHeLable.swift; sourceTree = "<group>"; };
+		A4619D471D752F9B00829BC9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A4619D491D7571BF00829BC9 /* DiyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyButton.swift; sourceTree = "<group>"; };
+		A4619D4B1D76830200829BC9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A4619D4D1D76A63C00829BC9 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		A47848F51DAA117400D64DFC /* QRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRItem.h; sourceTree = "<group>"; };
+		A47848F61DAA117400D64DFC /* QRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRItem.m; sourceTree = "<group>"; };
+		A47848F71DAA117400D64DFC /* QRMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRMenu.h; sourceTree = "<group>"; };
+		A47848F81DAA117400D64DFC /* QRMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRMenu.m; sourceTree = "<group>"; };
+		A47848F91DAA117400D64DFC /* QRUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRUtil.h; sourceTree = "<group>"; };
+		A47848FA1DAA117400D64DFC /* QRUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRUtil.m; sourceTree = "<group>"; };
+		A47848FB1DAA117400D64DFC /* QRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRView.h; sourceTree = "<group>"; };
+		A47848FC1DAA117400D64DFC /* QRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRView.m; sourceTree = "<group>"; };
+		A47848FD1DAA117400D64DFC /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		A47848FE1DAA117400D64DFC /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		A47849071DAA11A600D64DFC /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		A47849081DAA11A600D64DFC /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		A47CDFD01D95105000FDD96C /* CULable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CULable.swift; sourceTree = "<group>"; };
+		A494F3981D7D23DB00135E7B /* searchResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchResultViewController.swift; sourceTree = "<group>"; };
+		A4968CEB1D73D48B00C7E6D9 /* CarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4968CEE1D73D48B00C7E6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4968CF01D73D48B00C7E6D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4968CF31D73D48B00C7E6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4968CF51D73D48B00C7E6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4968CF81D73D48B00C7E6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4968CFA1D73D48B00C7E6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4968D041D73FD4600C7E6D9 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A4968D061D73FD7B00C7E6D9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A4ABA3911D9B97A40094AE70 /* ErrPluginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrPluginViewController.swift; sourceTree = "<group>"; };
+		A4CA49741D82AD9E00E880E1 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		A4F24A291D911A880005805D /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		B82555E2D05E7D1AA6921F6C /* Pods_CarTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D7EEF9821FE9946E2BB9ED /* Pods-CarTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarTest/Pods-CarTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4968CE81D73D48B00C7E6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BB15C27DCBFA72231C3F4E /* Pods_CarTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EBF3C17A5607BF8C8B9E73B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3D7EEF9821FE9946E2BB9ED /* Pods-CarTest.debug.xcconfig */,
+				0543F32BB80AA59574114C82 /* Pods-CarTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A44FC36F1D8E9126009784B1 /* Neon */ = {
+			isa = PBXGroup;
+			children = (
+				A44FC3701D8E9126009784B1 /* Neon.h */,
+				A44FC3711D8E9126009784B1 /* Neon.swift */,
+				A44FC3721D8E9126009784B1 /* NeonAlignable.swift */,
+				A44FC3731D8E9126009784B1 /* NeonAnchorable.swift */,
+				A44FC3741D8E9126009784B1 /* NeonExtensions.swift */,
+				A44FC3751D8E9126009784B1 /* NeonFrameable.swift */,
+				A44FC3761D8E9126009784B1 /* NeonGroupable.swift */,
+			);
+			path = Neon;
+			sourceTree = "<group>";
+		};
+		A47848F41DAA117400D64DFC /* QRView */ = {
+			isa = PBXGroup;
+			children = (
+				A47849071DAA11A600D64DFC /* UIViewExt.h */,
+				A47849081DAA11A600D64DFC /* UIViewExt.m */,
+				A47848F51DAA117400D64DFC /* QRItem.h */,
+				A47848F61DAA117400D64DFC /* QRItem.m */,
+				A47848F71DAA117400D64DFC /* QRMenu.h */,
+				A47848F81DAA117400D64DFC /* QRMenu.m */,
+				A47848F91DAA117400D64DFC /* QRUtil.h */,
+				A47848FA1DAA117400D64DFC /* QRUtil.m */,
+				A47848FB1DAA117400D64DFC /* QRView.h */,
+				A47848FC1DAA117400D64DFC /* QRView.m */,
+				A47848FD1DAA117400D64DFC /* QRViewController.h */,
+				A47848FE1DAA117400D64DFC /* QRViewController.m */,
+			);
+			path = QRView;
+			sourceTree = "<group>";
+		};
+		A4968CE21D73D48A00C7E6D9 = {
+			isa = PBXGroup;
+			children = (
+				A4968D001D73E9AE00C7E6D9 /* lib */,
+				A4968CED1D73D48B00C7E6D9 /* CarTest */,
+				A4968CEC1D73D48B00C7E6D9 /* Products */,
+				9EBF3C17A5607BF8C8B9E73B /* Pods */,
+				A946BB993C0A5C5AB8EBD30C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4968CEC1D73D48B00C7E6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4968CEB1D73D48B00C7E6D9 /* CarTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4968CED1D73D48B00C7E6D9 /* CarTest */ = {
+			isa = PBXGroup;
+			children = (
+				A4968CEE1D73D48B00C7E6D9 /* AppDelegate.swift */,
+				A4968CF01D73D48B00C7E6D9 /* ViewController.swift */,
+				A4968CF51D73D48B00C7E6D9 /* Assets.xcassets */,
+				A4968CF71D73D48B00C7E6D9 /* LaunchScreen.storyboard */,
+				A4968CF21D73D48B00C7E6D9 /* Main.storyboard */,
+				A4968CFA1D73D48B00C7E6D9 /* Info.plist */,
+				A4968D041D73FD4600C7E6D9 /* StartViewController.swift */,
+				A4968D061D73FD7B00C7E6D9 /* BaseViewController.swift */,
+				A4619D471D752F9B00829BC9 /* MainViewController.swift */,
+				A4619D491D7571BF00829BC9 /* DiyButton.swift */,
+				A4619D4B1D76830200829BC9 /* Config.swift */,
+				A4619D4D1D76A63C00829BC9 /* HttpRequest.swift */,
+				A494F3981D7D23DB00135E7B /* searchResultViewController.swift */,
+				A4CA49741D82AD9E00E880E1 /* Bridge-Header.h */,
+				A41255BC1D8918C9001D7495 /* CustomSearchBar.swift */,
+				A41255BE1D89259A001D7495 /* PlugnInfoViewController.swift */,
+				A41255C01D89276E001D7495 /* CarInfoViewController.swift */,
+				A41255C21D892786001D7495 /* LiLiangCfgViewController.swift */,
+				A41255C41D8927A1001D7495 /* ShortMsgCfgViewController.swift */,
+				A47CDFD01D95105000FDD96C /* CULable.swift */,
+				A45FE94A1D9A09A200CDDAC0 /* ZuHeLable.swift */,
+				A4227D441D9B536500EA51D6 /* AllPluginViewController.swift */,
+				A4227D461D9B5E5E00EA51D6 /* CusTableViewCell.swift */,
+				A4ABA3911D9B97A40094AE70 /* ErrPluginViewController.swift */,
+				A40802301D9D139100AF3BE2 /* QRViewController1.swift */,
+			);
+			path = CarTest;
+			sourceTree = "<group>";
+		};
+		A4968D001D73E9AE00C7E6D9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A47848F41DAA117400D64DFC /* QRView */,
+				A4F24A291D911A880005805D /* SwiftSpinner.swift */,
+				A43181831D90D550006DF4E7 /* SwiftyJSON.swift */,
+				A44FC36F1D8E9126009784B1 /* Neon */,
+			);
+			name = lib;
+			path = CarTest/lib;
+			sourceTree = "<group>";
+		};
+		A946BB993C0A5C5AB8EBD30C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B82555E2D05E7D1AA6921F6C /* Pods_CarTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4968CEA1D73D48B00C7E6D9 /* CarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4968CFD1D73D48B00C7E6D9 /* Build configuration list for PBXNativeTarget "CarTest" */;
+			buildPhases = (
+				F7FDC1F1FFD4D4BF7C81B8A5 /* [CP] Check Pods Manifest.lock */,
+				A4968CE71D73D48B00C7E6D9 /* Sources */,
+				A4968CE81D73D48B00C7E6D9 /* Frameworks */,
+				A4968CE91D73D48B00C7E6D9 /* Resources */,
+				AFAC6161983D81EE756D120A /* [CP] Embed Pods Frameworks */,
+				478310C85E3E9ECC50B91C49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarTest;
+			productName = CarTest;
+			productReference = A4968CEB1D73D48B00C7E6D9 /* CarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4968CE31D73D48A00C7E6D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.xdy;
+				TargetAttributes = {
+					A4968CEA1D73D48B00C7E6D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F79MVM65SZ;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = A4968CE61D73D48A00C7E6D9 /* Build configuration list for PBXProject "CarTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4968CE21D73D48A00C7E6D9;
+			productRefGroup = A4968CEC1D73D48B00C7E6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4968CEA1D73D48B00C7E6D9 /* CarTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4968CE91D73D48B00C7E6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4968CF91D73D48B00C7E6D9 /* LaunchScreen.storyboard in Resources */,
+				A4968CF61D73D48B00C7E6D9 /* Assets.xcassets in Resources */,
+				A4968CF41D73D48B00C7E6D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		478310C85E3E9ECC50B91C49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarTest/Pods-CarTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAC6161983D81EE756D120A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarTest/Pods-CarTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FDC1F1FFD4D4BF7C81B8A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4968CE71D73D48B00C7E6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44FC37C1D8E9126009784B1 /* NeonGroupable.swift in Sources */,
+				A47849041DAA117400D64DFC /* QRView.m in Sources */,
+				A4619D4A1D7571BF00829BC9 /* DiyButton.swift in Sources */,
+				A47849031DAA117400D64DFC /* QRUtil.m in Sources */,
+				A41255BF1D89259A001D7495 /* PlugnInfoViewController.swift in Sources */,
+				A43181841D90D550006DF4E7 /* SwiftyJSON.swift in Sources */,
+				A44FC3791D8E9126009784B1 /* NeonAnchorable.swift in Sources */,
+				A4968D071D73FD7B00C7E6D9 /* BaseViewController.swift in Sources */,
+				A44FC3781D8E9126009784B1 /* NeonAlignable.swift in Sources */,
+				A47849051DAA117400D64DFC /* QRViewController.m in Sources */,
+				A47849021DAA117400D64DFC /* QRMenu.m in Sources */,
+				A4968CF11D73D48B00C7E6D9 /* ViewController.swift in Sources */,
+				A47CDFD11D95105000FDD96C /* CULable.swift in Sources */,
+				A4968D051D73FD4600C7E6D9 /* StartViewController.swift in Sources */,
+				A4227D471D9B5E5E00EA51D6 /* CusTableViewCell.swift in Sources */,
+				A44FC3771D8E9126009784B1 /* Neon.swift in Sources */,
+				A47849091DAA11A600D64DFC /* UIViewExt.m in Sources */,
+				A494F3991D7D23DB00135E7B /* searchResultViewController.swift in Sources */,
+				A4619D481D752F9B00829BC9 /* MainViewController.swift in Sources */,
+				A45FE94B1D9A09A200CDDAC0 /* ZuHeLable.swift in Sources */,
+				A4F24A2A1D911A880005805D /* SwiftSpinner.swift in Sources */,
+				A44FC37A1D8E9126009784B1 /* NeonExtensions.swift in Sources */,
+				A4619D4E1D76A63C00829BC9 /* HttpRequest.swift in Sources */,
+				A40802311D9D139100AF3BE2 /* QRViewController1.swift in Sources */,
+				A41255C11D89276E001D7495 /* CarInfoViewController.swift in Sources */,
+				A47849011DAA117400D64DFC /* QRItem.m in Sources */,
+				A44FC37B1D8E9126009784B1 /* NeonFrameable.swift in Sources */,
+				A4619D4C1D76830200829BC9 /* Config.swift in Sources */,
+				A41255C51D8927A1001D7495 /* ShortMsgCfgViewController.swift in Sources */,
+				A41255BD1D8918C9001D7495 /* CustomSearchBar.swift in Sources */,
+				A4227D451D9B536500EA51D6 /* AllPluginViewController.swift in Sources */,
+				A41255C31D892786001D7495 /* LiLiangCfgViewController.swift in Sources */,
+				A4968CEF1D73D48B00C7E6D9 /* AppDelegate.swift in Sources */,
+				A4ABA3921D9B97A40094AE70 /* ErrPluginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4968CF21D73D48B00C7E6D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4968CF31D73D48B00C7E6D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4968CF71D73D48B00C7E6D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4968CF81D73D48B00C7E6D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4968CFB1D73D48B00C7E6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4968CFC1D73D48B00C7E6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4968CFE1D73D48B00C7E6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D7EEF9821FE9946E2BB9ED /* Pods-CarTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = F79MVM65SZ;
+				INFOPLIST_FILE = CarTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdy.CarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarTest/Bridge-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4968CFF1D73D48B00C7E6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0543F32BB80AA59574114C82 /* Pods-CarTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = F79MVM65SZ;
+				INFOPLIST_FILE = CarTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdy.CarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarTest/Bridge-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4968CE61D73D48A00C7E6D9 /* Build configuration list for PBXProject "CarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4968CFB1D73D48B00C7E6D9 /* Debug */,
+				A4968CFC1D73D48B00C7E6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4968CFD1D73D48B00C7E6D9 /* Build configuration list for PBXNativeTarget "CarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4968CFE1D73D48B00C7E6D9 /* Debug */,
+				A4968CFF1D73D48B00C7E6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4968CE31D73D48A00C7E6D9 /* Project object */;
+}
